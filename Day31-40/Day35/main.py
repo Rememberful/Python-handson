@@ -17,9 +17,7 @@ def decorator(func):
         print("After function call")
         return result
     return wrapper
-
 @decorator
 def greet(name):
     print(f"Hello, {name}!")
-
 greet("Alice")
